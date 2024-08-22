@@ -34,7 +34,7 @@
 </head>
 <body class="font-manrope">
     <!-- header content -->
-     <header class="container mx-auto px-2 lg:px-0">
+     <header class="container mx-auto px-2 lg:px-0 bg-[#fAfAfA]">
          <!-- nav content -->
         <nav>
            <div class="navbar bg-base-100">
@@ -103,52 +103,55 @@
          </div>
      </header>
     <!-- main content -->
-     <main class="container mx-auto px-3 lg:px-0">
+     <main class="px-3 bg-[#f8f8f8]">
       <!-- about section -->
-      <section class="py-16">
-        <div class="lg:flex items-center justify-center lg:justify-between">
-          <!-- about content -->
-          <div class="lg:w-2/5">
-            <div>
-            <img src="./assets/Vector.png" alt="">
+      <section class="py-16 bg-[#F4F4F4]">
+        <div class="container mx-auto">
+          <div class="lg:flex items-center justify-center lg:justify-between">
+            <!-- about content -->
+            <div class="lg:w-2/5">
+              <div>
+              <img src="./assets/Vector.png" alt="">
+              </div>
+             <div class=" space-y-3">
+              <h3 class="font-bold text-[#494949]"><i class="fa-solid fa-arrow-right"></i> About Us</h3>
+              <h2 class="text-heading font-bold text-4xl">We design thoughtful, liveable spaces</h2>
+              <p class="text-paragraph">The barn house captivates with its blend of rustic charm and 
+                modern sophistication, featuring weathered wood, sleek metal accents.</p>
+             </div>
+             <!-- card container -->
+             <div class="md:flex lg:block">
+               <!-- card-1 -->
+              <div class="flex space-x-3 items-center my-6">
+                <div class="">
+                  <img src="./assets/commercial.png" alt="">
+                </div>
+                <div>
+                  <h2 class="text-heading font-extrabold text-xl mb-1">Commercial</h2>
+                  <p class="text-paragraph">The barn house captivates with its blend <br> of rustic charm and modern.</p>
+                </div>
             </div>
-           <div class=" space-y-3">
-            <h3 class="font-bold text-[#494949]"><i class="fa-solid fa-arrow-right"></i> About Us</h3>
-            <h2 class="text-heading font-bold text-4xl">We design thoughtful, liveable spaces</h2>
-            <p class="text-paragraph">The barn house captivates with its blend of rustic charm and 
-              modern sophistication, featuring weathered wood, sleek metal accents.</p>
-           </div>
-           <!-- card container -->
-           <div class="md:flex lg:block">
-             <!-- card-1 -->
+              <!-- card-2 -->
             <div class="flex space-x-3 items-center my-6">
-              <div class="">
-                <img src="./assets/commercial.png" alt="">
-              </div>
-              <div>
-                <h2 class="text-heading font-extrabold text-xl mb-1">Commercial</h2>
-                <p class="text-paragraph">The barn house captivates with its blend <br> of rustic charm and modern.</p>
-              </div>
-          </div>
-            <!-- card-2 -->
-          <div class="flex space-x-3 items-center my-6">
-              <div class="">
-                <img src="./assets/residential.png" alt="">
-              </div>
-              <div>
-                <h2 class="text-heading font-extrabold text-xl mb-1">Residential</h2>
-                <p class="text-paragraph">The barn house captivates with its blend <br> of rustic charm and modern.</p>
-              </div>
-          </div>
-           </div>
-          </div>
-          <div>
-            <img src="./assets/Rectangle.png" alt="">
+                <div class="">
+                  <img src="./assets/residential.png" alt="">
+                </div>
+                <div>
+                  <h2 class="text-heading font-extrabold text-xl mb-1">Residential</h2>
+                  <p class="text-paragraph">The barn house captivates with its blend <br> of rustic charm and modern.</p>
+                </div>
+            </div>
+             </div>
+            </div>
+            <div>
+              <img src="./assets/Rectangle.png" alt="">
+            </div>
           </div>
         </div>
       </section>
       <!-- process section -->
-       <section class="pb-16">
+       <section class="pb-16 bg-[#F4F4F4]">
+       <div class="container mx-auto">
         <div class="text-center space-y-3">
           <h3 class="font-bold text-[#494949]"><i class="fa-solid fa-arrow-right"></i> How we works</h3>
           <h2 class="text-heading font-bold text-4xl">Our Works Process</h2>
@@ -205,9 +208,11 @@
               </div>
             </div>
           </div>
+       </div>
        </section>
        <!-- portfolio section -->
        <section class="pb-16">
+       <div class="container mx-auto">
         <div class="text-center space-y-3">
           <button class="mx-auto btn bg-primaryColor font-bold text-lg rounded-full"> <i class="fa-solid fa-arrow-right"></i> Explore our Latest works</button>
           <h2 class="text-heading font-bold text-4xl">Our Latest Portfolio</h2>
@@ -216,7 +221,7 @@
          <!-- portfolio card container -->
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-6 items-center mt-4">
             <!-- card-1 -->
-              <div class="md:flex space-x-5 col-span-1 md:col-span-2 lg:col-span-4  bg-[#E9E9E9] p-6 rounded-xl shadow-xl">
+              <div class="md:flex space-x-5 col-span-1 md:col-span-2 lg:col-span-4  bg-[#E9E9E9] p-6 rounded-xl shadow-lg">
                 <div>
                   <img class="w-full" src="./assets/img1.png" alt="">
                 </div>
@@ -227,15 +232,15 @@
                 </div>
               </div>
             <!-- card-2 -->
-            <div class="col-span-1 lg:col-span-2 bg-[#E9E9E9] p-6 rounded-xl shadow-xl">
+            <div class="col-span-1 lg:col-span-2 bg-[#E9E9E9] p-6 rounded-xl shadow-lg">
               <img class="md:h-60 lg:h-32 w-full" src="./assets/img2.png" alt="">
             </div>
             <!-- card-3 -->
-            <div class="p-6 bg-[#E9E9E9] rounded-xl shadow-xl"> 
+            <div class="p-6 bg-[#E9E9E9] rounded-xl shadow-lg"> 
               <img class="lg:h-32 w-full" src="./assets/img3.png" alt="">
             </div>
             <!-- card-4 -->
-            <div class="col-span-1 md:col-span-2 lg:col-span-4 p-6 bg-[#E9E9E9] rounded-xl shadow-xl">
+            <div class="col-span-1 md:col-span-2 lg:col-span-4 p-6 bg-[#E9E9E9] rounded-xl shadow-lg">
               <div class=" md:flex justify-center space-x-5">
                 <div>
                   <img class=" w-full" src="./assets/img4.png" alt="">
@@ -248,34 +253,130 @@
             </div>
             </div>
             <!-- card-5 -->
-            <div class="p-4 bg-[#E9E9E9] rounded-xl shadow-xl">
+            <div class="p-4 bg-[#E9E9E9] rounded-xl shadow-lg">
               <img class="lg:h-36 w-full" src="./assets/img5.png" alt="">
             </div>
             <!-- card-6 -->
-             <div class="hidden md:block lg:hidden p-4 bg-[#E9E9E9] rounded-xl shadow-xl">
+             <div class="hidden md:block lg:hidden p-4 bg-[#E9E9E9] rounded-xl shadow-lg">
               <img class="lg:h-36 w-full" src="./assets/img5.png" alt="">
             </div>
           </div>
+       </div>
+       </section>
+       <!-- testimonial section -->
+       <section class="pb-16">
+       <div class="container mx-auto">
+        <div class="text-center space-y-3">
+          <h3 class="font-bold text-[#494949]"><i class="fa-solid fa-arrow-right"></i> Testimonials</h3>
+          <h2 class="text-heading font-bold text-4xl">What Our Client Say</h2>
+          <p class="text-paragraph">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+         </div>
+         <!-- slider container -->
+         <div class="carousel w-full">
+          <div id="item1" class="carousel-item w-full ">
+            <div class="mx-auto text-center mt-8 w-2/3 space-y-2">
+              <div>
+                <img class="mx-auto rounded-full" src="./assets/client1.jpg" alt="">
+              </div>
+              <div class="text-center space-y-1 ]">
+                <h2 class="text-2xl font-bold text-heading">Joseph Brown</h2>
+                <p class="text-paragraph">“Rinterio transformed our vision into reality with their innovative designs and attention to detail. Their architectural expertise brought our dream project to life, exceeding all expectations. Highly recommended!„</p>
+               <div>
+                <i class="text-orange-400 text-2xl fa-solid fa-star"></i>
+                <i class="text-orange-400 text-2xl fa-solid fa-star"></i>
+                <i class="text-orange-400 text-2xl fa-solid fa-star"></i>
+                <i class="text-orange-400 text-2xl fa-solid fa-star"></i>
+                <i class="text-orange-400 text-2xl fa-solid fa-star"></i>
+               </div>
+              </div>
+            </div>
+          </div>
+          <div id="item2" class="carousel-item w-full">
+            <div class="mx-auto text-center mt-8 w-2/3 space-y-2">
+              <div>
+                <img class="mx-auto rounded-full" src="./assets/client2.jpg" alt="">
+              </div>
+              <div class="text-center space-y-1">
+                <h2 class="text-2xl font-bold text-heading">Joseph Brown</h2>
+                <p class="text-paragraph">“Rinterio transformed our vision into reality with their innovative designs and attention to detail. Their architectural expertise brought our dream project to life, exceeding all expectations. Highly recommended!„</p>
+               <div>
+                <i class="text-orange-400 text-2xl fa-solid fa-star"></i>
+                <i class="text-orange-400 text-2xl fa-solid fa-star"></i>
+                <i class="text-orange-400 text-2xl fa-solid fa-star"></i>
+                <i class="text-orange-400 text-2xl fa-solid fa-star"></i>
+                <i class="text-orange-400 text-2xl fa-solid fa-star"></i>
+               </div>
+              </div>
+            </div>
+          </div>
+          <div id="item3" class="carousel-item w-full">
+            <div class="mx-auto text-center mt-8 w-2/3 space-y-2">
+              <div>
+                <img class="mx-auto rounded-full" src="./assets/client3.jpg" alt="">
+              </div>
+              <div class="text-center space-y-1">
+                <h2 class="text-2xl font-bold text-heading">Joseph Brown</h2>
+                <p class="text-paragraph">“Rinterio transformed our vision into reality with their innovative designs and attention to detail. Their architectural expertise brought our dream project to life, exceeding all expectations. Highly recommended!„</p>
+               <div>
+                <i class="text-orange-400 text-2xl fa-solid fa-star"></i>
+                <i class="text-orange-400 text-2xl fa-solid fa-star"></i>
+                <i class="text-orange-400 text-2xl fa-solid fa-star"></i>
+                <i class="text-orange-400 text-2xl fa-solid fa-star"></i>
+                <i class="text-orange-400 text-2xl fa-solid fa-star"></i>
+               </div>
+              </div>
+            </div>
+          </div>
+          <div id="item4" class="carousel-item w-full">
+            <div class="mx-auto text-center mt-8 w-2/3 space-y-2">
+              <div>
+                <img class="mx-auto rounded-full" src="./assets/client4.jpg" alt="">
+              </div>
+              <div class="text-center space-y-1">
+                <h2 class="text-2xl font-bold text-heading">Joseph Brown</h2>
+                <p class="text-paragraph">“Rinterio transformed our vision into reality with their innovative designs and attention to detail. Their architectural expertise brought our dream project to life, exceeding all expectations. Highly recommended!„</p>
+               <div>
+                <i class="text-orange-400 text-2xl fa-solid fa-star"></i>
+                <i class="text-orange-400 text-2xl fa-solid fa-star"></i>
+                <i class="text-orange-400 text-2xl fa-solid fa-star"></i>
+                <i class="text-orange-400 text-2xl fa-solid fa-star"></i>
+                <i class="text-orange-400 text-2xl fa-solid fa-star"></i>
+               </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex w-full justify-center gap-2 py-2">
+          <a href="#item1" class="btn btn-xs">1</a>
+          <a href="#item2" class="btn btn-xs">2</a>
+          <a href="#item3" class="btn btn-xs">3</a>
+          <a href="#item4" class="btn btn-xs">4</a>
+        </div>
+       </div>
        </section>
         <!-- discussion section -->
-        <section class="pb-16">
-          <div class="text-center space-y-3">
-            <button class="mx-auto btn bg-primaryColor font-bold text-lg rounded-full"> <i class="fa-solid fa-arrow-right"></i> Let’s Connect</button>
-            <h2 class="text-heading font-bold text-4xl">Let’s Discuss Next Project</h2>
-            <p class="text-paragraph">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
-           </div>
-           <div class="">
-            <form class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
-            <input class="bordder border-gray-300 border-[1px] rounded-md w-full p-3" type="text" placeholder="First Name*">
-            <input class="bordder border-gray-300 border-[1px] rounded-md w-full p-3" type="text" placeholder="Last Name*">
-            <input class="bordder border-gray-300 border-[1px] rounded-md w-full p-3" type="number" placeholder="Phone Number*">
-            <input class="bordder border-gray-300 border-[1px] rounded-md w-full p-3" type="email" placeholder="Email Number*">
-            </form>
-            <textarea class="border-gray-300 border-[1px] rounded-md w-full my-3 p-3" name="" id="" rows="6" placeholder="Write your message here"></textarea>
-            <button class="mx-auto btn bg-secondaryColor font-extrabold text-lg rounded-full w-full">Book Consult <i class="bg-black text-white rounded-full p-1 -rotate-45 fa-solid fa-arrow-right"></i></button>
-           </div>
+        <section class="pb-16 bg-[url(./assets/bg.jpg)] bg-no-repeat bg-cover">
+          <div class="container mx-auto">
+            <div class="text-center space-y-3">
+              <button class="mx-auto btn bg-primaryColor font-bold text-lg rounded-full"> <i class="fa-solid fa-arrow-right"></i> Let’s Connect</button>
+              <h2 class="text-heading font-bold text-4xl">Let’s Discuss Next Project</h2>
+              <p class="text-paragraph">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+             </div>
+             <div>
+              <!-- <img src="./assets/bg.jpg" alt=""> -->
+              <form class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
+              <input class="bordder border-gray-300 border-[1px] rounded-md w-full p-3" type="text" placeholder="First Name*">
+              <input class="bordder border-gray-300 border-[1px] rounded-md w-full p-3" type="text" placeholder="Last Name*">
+              <input class="bordder border-gray-300 border-[1px] rounded-md w-full p-3" type="number" placeholder="Phone Number*">
+              <input class="bordder border-gray-300 border-[1px] rounded-md w-full p-3" type="email" placeholder="Email Number*">
+              </form>
+              <textarea class="border-gray-300 border-[1px] rounded-md w-full my-3 p-3" name="" id="" rows="6" placeholder="Write your message here"></textarea>
+              <button class="mx-auto btn bg-secondaryColor font-extrabold text-lg rounded-full w-full">Book Consult <i class="bg-black text-white rounded-full p-1 -rotate-45 fa-solid fa-arrow-right"></i></button>
+             </div>
+          </div>
         </section>
      </main>
     <!-- footer content -->
+     <footer></footer>
 </body>
 </html>
